@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Hi, I'm Nikita</h1>
+            <p>Welcome to my portfolio!</p>
+            <button onclick="changeText()">Click me!</button>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+        </section>
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>This is a description of my first project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>This is a description of my second project.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <button>submit</button>
+    
+            <script src="script.js"></script>
+    </body>
+</html>
